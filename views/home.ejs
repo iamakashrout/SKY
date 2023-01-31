@@ -1,0 +1,17 @@
+<%-include("partials/header")-%>
+
+<body>
+  <img class="anim" src="/images/first.gif" alt="Weather animation">
+  <div class="box">
+    <form action="/" method="post" class="inner-box">
+      <div class="form-group">
+        <label for="cityInput">Enter City Name: </label>
+        <input type="text" class="form-control space" id="cityInput" placeholder="eg: Delhi" name="cityName">
+        <small id="emailHelp" class="form-text text-muted">The place for all weather data...</small>
+      </div>
+      <button type="submit" class="btn btn-primary submitBtn">Submit</button>
+    </form>
+  </div>
+</body>
+
+<%-include("partials/footer")-%>

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.nbar{
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	height: 10vh;
+}
+
+.logo{
+	margin-left: 2%;
+}
+
+.brandName{
+	margin-right: 4%;
+	color: white;
+	font-size: 200%;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.brandName:hover{
+	cursor: pointer;
+	color: aqua;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+.anim{
+	margin-top: 2%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.box{
+	margin-top: 2%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.inner-box{
+	width: 50%;
+	height: 60%;
+	font-size: 150%;
+}
+
+.space{
+	text-align: center;
+	border: solid black;
+}
+
+.submitBtn{
+	margin-top: 2%;
+	background-color: aqua;
+	color: black;
+	font-weight: bolder;
+	font-size: 90%;
+}
+
+.submitBtn:hover{
+	background-color: black;
+	color: aqua;
+}
+
+.city{
+	margin-top: 2%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 300%;
+	text-decoration: underline;
+}
+
+.partition{
+	margin-top: 1%;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+
+.weatherList{
+	font-size: 240%;
+	margin-right: 15%;
+}
+
+.weatherImg{
+	width: 18%;
+}
+
+.next{
+	display: block;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: aqua;
+	color: black;
+	font-weight: bold;
+	font-size: 180%;
+}
+
+.next:hover{
+	background-color: black;
+	color: aqua;
+}
+
+.next-text{
+	text-decoration: none;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 5%;
+	background-color: black;
+	color: white;
+	font-size: 110%;
+}
+
+.footer-text{
+	text-decoration: none;
+	color: white;
+}
+
+.footer-text:hover{
+	color: aqua;
+}

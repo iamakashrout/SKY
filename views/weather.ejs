@@ -1,0 +1,21 @@
+<%-include("partials/header")-%>
+
+<body>
+  <h1 class="city"><%=query%></h1>
+  <div class="partition">
+    <ul class="weatherList">
+      <li>Temperature: <%=temp%>  °C</li>
+      <li>Description: <%=desc%></li>
+      <li>Pressure: <%=pres%> mBar</li>
+      <li>Humidity: <%=hum%> %</li>
+      <li>Visibility: <%=vis%> m</li>
+      <li>Wind Speed: <%=win%> km/h</li>
+    </ul>
+    <img class="weatherImg" src=<%=pic%> alt="Weather image">
+  </div>
+  <a href="/" class="next-text">
+    <button type="button" class="btn btn-primary btn-lg btn-block next">Search Another City</button>
+  </a>
+</body>
+
+<%-include("partials/footer")-%>
