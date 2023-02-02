@@ -20,7 +20,7 @@ app.post("/", function(req, res){
     https.get(url, function(response){
         console.log(response.statusCode);
         if(response.statusCode>=400){
-            res.redirect("/");
+            res.render("error");
         }
         else{
         response.on("data", function(data){

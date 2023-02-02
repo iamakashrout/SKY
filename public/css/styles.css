@@ -77,7 +77,6 @@ body{
 	text-decoration: underline;
 }
 
-
 .partition{
 	margin-top: 1%;
 	display: flex;
@@ -112,6 +111,13 @@ body{
 
 .next-text{
 	text-decoration: none;
+}
+
+.error{
+	margin-top: 4%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 400%;
 }
 
 .foot{
