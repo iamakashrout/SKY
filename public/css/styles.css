@@ -139,3 +139,38 @@ body{
 .footer-text:hover{
 	color: aqua;
 }
+
+@media (max-width: 600px) {
+
+	.anim{
+		margin-top: 20%;
+	}
+
+	.box{
+		margin-top: 15%;
+	}
+
+	.inner-box{
+		width: 80%;
+	}
+
+	.space{
+		margin-top: 2%;
+	}
+
+	.submitBtn{
+		margin-top: 8%;
+	}
+
+	.weatherList{
+		margin-top: 5%;
+		font-size: 180%;
+		margin-right: 10%;
+	}
+	
+	.weatherImg{
+		margin-top: 60%;
+		height: 35%;
+		width: 60%;
+	}
+}
